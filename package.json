@@ -1,0 +1,62 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@observablehq/runtime": "^4.0.1",
+    "@types/react-helmet": "^5.0.8",
+    "babel-preset-gatsby": "^0.1.11",
+    "core-js": "^2.6.5",
+    "fast-xml-parser": "^3.12.16",
+    "gatsby": "^2.4.2",
+    "gatsby-cli": "^2.5.13",
+    "gatsby-image": "^2.0.34",
+    "gatsby-plugin-emotion": "^4.0.6",
+    "gatsby-plugin-layout": "^1.0.13",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-sharp": "^2.0.31",
+    "gatsby-plugin-typescript": "^2.0.11",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "how-to-embed-a-notebook-in-a-react-app": "https://api.observablehq.com/@jashkenas/how-to-embed-a-notebook-in-a-react-app.tgz?key=188f50f6a5f19b89",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-helmet": "^5.2.0",
+    "tesseract.js": "^1.0.14",
+    "typescript": "^3.3.4000",
+    "windfall-awareness-notebook-prototype": "https://api.observablehq.com/@nvanwittenbe/windfall-awareness-notebook-prototype.tgz"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "babel-plugin-emotion": "^10.0.9",
+    "prettier": "^1.16.4",
+    "react-redux": "^7.0.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx,tsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
